@@ -1,5 +1,5 @@
 module AWS
-  module ELB
+  class ELB
 
     # Which host FQDN will we connect to for all API calls to AWS?
     # If ELB_URL is defined in the users ENV we can override the default with that.

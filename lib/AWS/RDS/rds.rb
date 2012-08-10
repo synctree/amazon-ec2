@@ -1,5 +1,5 @@
 module AWS
-  module RDS
+  class RDS
     class Base < AWS::Base
 
       # This API creates a new DB instance. Once the call has completed

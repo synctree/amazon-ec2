@@ -1,5 +1,5 @@
 module AWS
-  module ELB
+  class ELB
     class Base < AWS::Base
 
       # This API creates a new LoadBalancer. Once the call has completed

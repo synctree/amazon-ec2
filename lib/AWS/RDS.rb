@@ -1,5 +1,5 @@
 module AWS
-  module RDS
+  class RDS
 
     # Which host FQDN will we connect to for all API calls to AWS?
     # If RDS_URL is defined in the users ENV we can override the default with that.
