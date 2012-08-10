@@ -1,5 +1,5 @@
 module AWS
-  module EC2
+  class EC2
     class Base < AWS::Base
 
       # The ConfirmProductInstance operation returns true if the given product code is attached to the instance

@@ -1,5 +1,5 @@
 module AWS
-  module EC2
+  class EC2
     class Base < AWS::Base
 
       # The CreateTags operation adds or overwrites tags for the specified resource(s).

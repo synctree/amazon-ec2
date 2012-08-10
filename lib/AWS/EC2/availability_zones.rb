@@ -1,5 +1,5 @@
 module AWS
-  module EC2
+  class EC2
     class Base < AWS::Base
 
       # The DescribeAvailabilityZones operation describes availability zones that are currently

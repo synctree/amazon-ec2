@@ -1,5 +1,5 @@
 module AWS
-  module EC2
+  class EC2
     class Base < AWS::Base
 
       # The DescribeSubnets operation returns information about subnets available for use by the user

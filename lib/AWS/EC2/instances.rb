@@ -1,5 +1,5 @@
 module AWS
-  module EC2
+  class EC2
     class Base < AWS::Base
 
       # Launches a specified number of instances of an AMI for which you have permissions.

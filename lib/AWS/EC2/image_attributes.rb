@@ -1,5 +1,5 @@
 module AWS
-  module EC2
+  class EC2
     class Base < AWS::Base
 
       # The ModifyImageAttribute operation modifies an attribute of an AMI.  The following attributes may
