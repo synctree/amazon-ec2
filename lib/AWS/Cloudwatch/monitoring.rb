@@ -159,6 +159,8 @@ module AWS
               dimension_prefix + "Name" => dimension,
               dimension_prefix + "Value" => value
             })
+            
+            ii += 1
           end unless datum[:dimensions].nil?
 
           params.merge! datum_params
